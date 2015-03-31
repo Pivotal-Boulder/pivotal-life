@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #55c4eb;
+$background-color:  #15c4eb;
 
 $full-color:  rgba(255, 255, 255, 1);
 $light-color: rgba(255, 255, 255, 0.7);
@@ -12,7 +12,7 @@ $light-color: rgba(255, 255, 255, 0.7);
 .widget-title {
 
   color: $light-color;
-  font-size: 15px;
+  font-size: 1.5em;
   text-align: left;
   text-transform: uppercase;
   position: absolute;
@@ -37,20 +37,20 @@ $light-color: rgba(255, 255, 255, 0.7);
   .title {
     color: $light-color;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.5em;
   }
 
   .temp {
     color: $full-color;
     text-align: left;
-    font-size: 45px;
+    font-size: 3.2em;
   }
 
   .summary {
     color: $full-color;
     text-align: left;
     vertical-align: middle;
-    font-size: 17px;
+    font-size: 1em;
     margin-left: 45px;
   }
 
@@ -63,5 +63,4 @@ $light-color: rgba(255, 255, 255, 0.7);
   .more-info {
     color: $light-color;
   }
-
 }

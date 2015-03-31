@@ -1,20 +1,25 @@
 .widget-rotating-clock {
-  background-color: #dc5945;
-
-  white-space: nowrap;
+  background-color: #3c3d62;
 
   .date {
-    font-size: 39px;
+    font-size: 2.2em;
     font-weight: bold;
-    padding-bottom: 48px;
+//    padding-bottom: 48px;
   }
 
   .time {
-    font-size: 27px;
+    font-size: 2.2em;
     font-weight: bold;
+		  position: relative;
+		  bottom: 10px;
+		  left: 0;
+		  right: 0;
+		  width: 90%;
+		  border-top: none;
+		  margin: auto;
   }
 
   .city {
-    font-size: 25px;
+    font-size: 2.2em;
   }
 }

@@ -1,9 +1,0 @@
-<div class="stops">
-  <table data-foreach-stop="data"  class="stop">
-    <caption data-bind="stop | replace 'and', '&amp;' | replace ' St ', ' ' | replace ' St', ''"/>
-    <tr data-foreach-bus="data[stop]">
-      <th class="bus" data-bind="bus"/>
-      <td data-foreach-time="data[stop][bus]" data-bind="time"/>
-    </tr>
-  </table>
-</div>
