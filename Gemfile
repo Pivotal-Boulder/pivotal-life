@@ -2,14 +2,10 @@ source 'https://rubygems.org'
 
 gem 'dashing'
 gem 'dotenv'
-gem 'geocoder'
 gem 'activesupport'
-gem 'nokogiri'
 gem 'rake'
 gem 'twitter'
-gem 'yelp'
 gem 'jwt', '~> 0.1.5'
-gem 'google-api-client'
 
 # so our Rakefile works everywhere
 gem 'rspec'
@@ -21,7 +17,6 @@ end
 
 group :development, :test do
   gem 'pry'
-  gem 'vcr'
   gem 'webmock'
   gem 'rack-coffee'
 end
