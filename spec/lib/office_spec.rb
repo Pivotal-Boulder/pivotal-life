@@ -24,8 +24,8 @@ describe Office do
         }
       }
 
-      office = Office.new("nyc", config)
-      expect(office.code).to eq "nyc"
+      office = Office.new("boulder", config)
+      expect(office.code).to eq "boulder"
     end
 
   end
