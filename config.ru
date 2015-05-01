@@ -3,8 +3,8 @@ require 'dotenv'
 
 Dotenv.load
 
-USERNAME = ENV['AUTH_USERNAME'] || 'admin'
-PASSWORD = ENV['AUTH_PASSWORD'] || 'admin'
+USERNAME ||= ENV['AUTH_USERNAME'] || 'admin'
+PASSWORD ||= ENV['AUTH_PASSWORD'] || 'admin'
 
 configure do
   set :auth_token, 'YOUR_AUTH_TOKEN'
